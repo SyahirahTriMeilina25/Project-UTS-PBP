@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/blue"
+    android:orientation="vertical"
+    android:padding="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="200dp"
+        android:src="@drawable/swslogo"
+        android:layout_height="200dp"/>
+
+    <EditText
+        android:id="@+id/regusername"
+        android:textSize="20dp"
+        android:hint=" Username"
+        android:textStyle="bold"
+        android:inputType="text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/regemail"
+        android:textSize="20dp"
+        android:inputType="textEmailAddress"
+        android:hint=" Email"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/tvTanggalPilihan"
+        android:textSize="20dp"
+        android:hint=" Pilih Tanggal Lahir"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"/>
+
+    <EditText
+        android:id="@+id/regfixpassword"
+        android:textSize="20dp"
+        android:inputType="textPassword"
+        android:hint=" Password"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/regpassword"
+        android:textSize="20dp"
+        android:inputType="textPassword"
+        android:hint=" Confirm Password"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnRegistrasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="clickRegistrasi"
+        android:text="Registrasi"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
